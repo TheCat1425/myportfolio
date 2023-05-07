@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -9,4 +10,31 @@ h1{
 }
 .h3font{
     font-family: sans-serif;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(255, 166, 0);
+    color: black;
+    font-size: 150%;
+    font-family: 'Vina Sans', cursive;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border-radius: 10%;
+    background-image: linear-gradient(orange,  tomato);
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
