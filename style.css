@@ -8,6 +8,9 @@ h1{
 .orange-color{
     color: rgb(255, 166, 0);
 }
+h2{
+    font-size: 40px;
+}
 .h3font{
     font-family: sans-serif;
 }
@@ -49,4 +52,19 @@ h1{
 .flexible-container{
         display: flex;
             margin-bottom: 200px;
+}
+.experience-item{
+    width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 10px color blue;
+        box-shadow: 5px 5px 10px black;
+}
+.Experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50px 50px;
+}
+.text-align{
+    text-align: center;
 }
