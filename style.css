@@ -59,12 +59,22 @@ h2{
         margin-right: 5%;
         padding-left: 10px color blue;
         box-shadow: 5px 5px 10px black;
+        border-radius: 10px;
 }
 .Experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: 50px 50px;
+    background-position: 5px 115px;
 }
 .text-align{
+    text-align: center;
+}
+#babyweb{
+    border-left: 7px solid blueviolet;
+}
+#fullweb{
+    border-left: 7px solid tomato;
+}
+footer p{
     text-align: center;
 }
